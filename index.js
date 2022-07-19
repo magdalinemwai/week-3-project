@@ -1,13 +1,13 @@
-unction dairyProduction() {f
-        const inputA = parseInt(document.getElementById("valueShedA").value);
-        document.getElementById("resultShedA").innerHTML = "Your production in Shed A is " + inputA + " litres per day ";
-        const inputB = parseInt(document.getElementById("valueShedB").value);
-        document.getElementById("resultShedB").innerHTML = "Your production in Shed B is " + inputB + " litres per day ";
-        const inputC = parseInt(document.getElementById("valueShedC").value);
-        document.getElementById("resultShedC").innerHTML = "Your production in Shed C is  " + inputC + " litres per day ";
-        const inputD = parseInt(document.getElementById("valueShedD").value);
-        document.getElementById("resultShedC").innerHTML = "Your production in Shed D is " + inputD + " litres per day ";
-        var totalProduction = parseInt(inputA + inputB + inputC + inputD);
+function dairyProduction() {
+        const inputQ = parseInt(document.getElementById("valueShedQ").value);
+        document.getElementById("resultShedA").innerHTML = "Your production in Shed Q is " + inputQ + " litres per day ";
+        const inputW = parseInt(document.getElementById("valueShedW").value);
+        document.getElementById("resultShedB").innerHTML = "Your production in Shed W is " + inputW + " litres per day ";
+        const inputE = parseInt(document.getElementById("valueShedE").value);
+        document.getElementById("resultShedC").innerHTML = "Your production in Shed E is  " + inputE + " litres per day ";
+        const inputR = parseInt(document.getElementById("valueShedR").value);
+        document.getElementById("resultShedD").innerHTML = "Your production in Shed R is " + inputR + " litres per day ";
+        var totalProduction = parseInt(inputQ + inputW + inputE + inputR);
         document.getElementById("totalShed").innerHTML = "Your production in all Sheds is " + totalProduction + " litres per day ";
         var weeklyIncome = totalProduction * 45 * 7;
         document.getElementById("weeklyIncome").innerHTML = "Your weekly income is  " + weeklyIncome;

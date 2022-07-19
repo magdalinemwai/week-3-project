@@ -5,9 +5,9 @@
 #formcontainer{
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 50%;
     margin: 50px auto;
-    text-align: center;
+    text-align: left;
     background-color: blue;
     height: 250px;
 }
@@ -40,20 +40,20 @@ div input{
     padding-top: 7px;
     padding-bottom: 6px;
 }
-#monthlycontainer{
-    background-color: blue;
+#weeklycontainer{
+    background-color: greenyellow;
     margin: 70px auto;
     height: 80px;
     width: 55%;
     text-align: center;
 }
-#monthlycontainer h2{
+#weeklycontainer h2{
     margin-top: 5px;
     margin-bottom: 14px;
     text-decoration: underline;
 }
 #yearcontainer{
-    background-color: blue;
+    background-color: greenyellow;
     margin: 70px auto;
     height: 280px ;
     width: 55%;
